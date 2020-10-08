@@ -18,3 +18,4 @@ Quando('eu faço um login com {string} e {string}') do |email, password|
   Então('devo ver a mensagem de alerta {string}') do |expect_menssage|
     expect(@login_page.alert).to eql expect_menssage
   end
+  
